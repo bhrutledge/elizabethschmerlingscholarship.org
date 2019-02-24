@@ -7,13 +7,14 @@
     * Selectors beggining with an underscore (_selector: property) target only IE6
     * Selectors beggining with an asterisk (*selector: property) target only IE6 and IE7
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
 
 :root {
     --bg-color: #fff;
     --text-color: #333;
     --header-color: #0082c8;
     --link-color: #de425b;
-    --border-color: #ddd;
+    --border-color: #B4B4B4;
   }
 
 /* HTML5 display definitions
@@ -69,7 +70,7 @@ body {
 
 /* Fonts settings based on the 100E2R standard: http://www.informationarchitects.jp/en/100e2r/ */
 body, button, input, select, textarea {
-    font: 1em/1.625 Palatino, 'Palatino Linotype', 'Book Antiqua', FreeSerif, Georgia, serif;
+    font: 1em/1.625 Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     color: var(--text-color);
 }
 
@@ -89,7 +90,6 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--header-color);
-    font-family: Geneva, "Lucida Sans", "Lucida Grande", sans-serif;
     font-size: 1em;
     font-weight: normal;
 }
@@ -266,10 +266,9 @@ a:hover, a:active {
 }
 
 a.button {
-    font-family: Geneva, "Lucida Sans", "Lucida Grande", sans-serif;
     font-weight: normal;
     padding: .5em;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: var(--link-color);
     color: var(--bg-color);
 }
@@ -425,7 +424,6 @@ section {
 /* #navigation */
 
 .nav li {
-    font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', FreeSerif, Georgia, serif;
     list-style: none;
 }
 
@@ -438,7 +436,6 @@ section {
 }
 
 #main-nav li {
-    font-family: Geneva, "Lucida Sans", "Lucida Grande", sans-serif;
     font-size: 1.625em; /* 26px */
     font-weight: bold;
     line-height: 1em;
