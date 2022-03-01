@@ -12,9 +12,9 @@
 :root {
     --bg-color: #fff;
     --text-color: #333;
-    --header-color: #0082c8;
-    --link-color: #cc833c;
-    --border-color: #B4B4B4;
+    --header-color: #98476C;
+    --link-color: #00A3DA;
+    --border-color: #98476C;
   }
 
 /* HTML5 display definitions
@@ -85,7 +85,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 /*
     * Font sizes are based on the golden ratio of 16
     * See this for the modular scale: ow.ly/5jGl6
-    * Line-heights and margins are adjusted to keep a 26px (1.625em) vertical rhythm across elements 
+    * Line-heights and margins are adjusted to keep a 26px (1.625em) vertical rhythm across elements
 */
 
 h1, h2, h3, h4, h5, h6 {
@@ -395,8 +395,8 @@ figure {
     _width: 360px;
     padding: 6px;
     background-color: var(--border-color);
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -455,46 +455,46 @@ section {
     /* Tablets/netbooks (768px+) styles go here */
 }
 
-@media only screen and (min-width: 1024px) { 
+@media only screen and (min-width: 1024px) {
     /* Desktops (1024px+) styles go here */
     body {
         max-width: 1200px;
         position: relative;
     }
-    
+
     #banner {
         text-align: left;
         float: right;
         width: 65%;
         margin-bottom: 4.875em;
     }
-    
+
     #banner p {
         max-width: 36em;
     }
-    
+
     #main-nav {
         display: none;
     }
-    
+
     #liz-img {
         position: absolute;
         left: 0;
         top: 1.625em;
         width: 30%;
     }
-    
+
     #content article {
         clear: both;
         margin-right: -5%;
         overflow: hidden;
         /* width: 105% */
     }
-    
+
     #content section {
         float: left;
         width: 28.571428571%; /* 30 / 105 */
-        margin-right: 4.761904762%; /* 5 / 105 */ 
+        margin-right: 4.761904762%; /* 5 / 105 */
     }
 
     footer {
@@ -530,7 +530,7 @@ section {
 
     /* Do not show javascript and internal links */
     a[href^="javascript:"]:after, a[href^="#"]:after {
-        content: ""; 
+        content: "";
     }
 
     /* Printing Tables: css-discuss.incutio.com/wiki/Printing_Tables */
