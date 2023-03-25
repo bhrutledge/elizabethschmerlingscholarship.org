@@ -9,8 +9,9 @@ The site is hosted on GitHub Pages, with previews on Netlify.
 ### Before drawing
 
 - [x] Create `YYYY-raffle` branch
-- [x] Resize tag image to 360x240, save to tag.jpg
-- [x] Resize quilt image to 360x???, save quilt.jpg
+- [x] Start server with `netlify dev`
+- [x] Resize quilt image to 360x???, save to `assets/img/quilt.jpg`
+- [x] Resize tag image to 360x240, save to `assets/img/tag.jpg`
 - [x] Rename flyer to ElizabethSchmerling_Quilt_Flyer.pdf
 - [x] Uncomment both "Buy Raffle Tickets"
 - [x] Comment results
