@@ -14,7 +14,7 @@ The site is hosted on GitHub Pages, with previews on Netlify.
 - [x] Resize tag image to 360x240, save to `assets/img/tag.jpg`
 - [x] Rename flyer to ElizabethSchmerling_Quilt_Flyer.pdf
 - [x] Uncomment both "Buy Raffle Tickets"
-- [x] Comment results
+- [x] Comment winner
 - [x] Search and replace year
 - [x] Update copy
 - [x] Update colors based on flyer
