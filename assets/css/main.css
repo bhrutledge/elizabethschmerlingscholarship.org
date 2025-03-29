@@ -10,11 +10,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
 
 :root {
-    --bg-color: #fff;
+    --bg-color: #FFF;
     --text-color: #333;
-    --header-color: #98476C;
-    --link-color: #00A3DA;
-    --border-color: #98476C;
+    --header-color: #A64F03;
+    --link-color: #8C0303;
+    --border-color: #9C9CA6;
   }
 
 /* HTML5 display definitions
