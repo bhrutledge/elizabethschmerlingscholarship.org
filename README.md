@@ -12,7 +12,7 @@ The site is hosted on GitHub Pages, with previews on Netlify.
 - [x] Start server with `netlify dev`
 - [x] Resize quilt image to 360x???, save to `assets/img/quilt.jpg`
 - [x] Resize tag image to 360x240, save to `assets/img/tag.jpg`
-- [ ] Rename flyer to ElizabethSchmerling_Quilt_Flyer.pdf
+- [x] Rename flyer to ElizabethSchmerling_Quilt_Flyer.pdf
 - [x] Uncomment both "Buy Raffle Tickets"
 - [x] Comment winner
 - [x] Search and replace year
