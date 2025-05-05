@@ -22,9 +22,9 @@ The site is hosted on GitHub Pages, with previews on Netlify.
 
 ### After drawing
 
-- [ ] Create `YYYY-winner` branch
-- [ ] Comment both "Buy Raffle Tickets" and ticket details
-- [ ] Uncomment results
+- [x] Create `YYYY-winner` branch
+- [x] Comment both "Buy Raffle Tickets" and ticket details
+- [x] Uncomment results
 
 ### Deployment
 
