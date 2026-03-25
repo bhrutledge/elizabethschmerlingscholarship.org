@@ -8,17 +8,17 @@ The site is hosted on GitHub Pages, with previews on Netlify.
 
 ### Before drawing
 
-- [ ] Create `YYYY-raffle` branch
-- [ ] Start server with `netlify dev`
-- [ ] Resize quilt image to 360x???, save to `assets/img/quilt.jpg`
-- [ ] Resize tag image to 360x240, save to `assets/img/tag.jpg`
-- [ ] Rename flyer to ElizabethSchmerling_Quilt_Flyer.pdf
-- [ ] Uncomment both "Buy Raffle Tickets"
-- [ ] Comment winner
-- [ ] Search and replace year
-- [ ] Update copy
-- [ ] Update colors based on quilt/flyer
-- [ ] Update eventbee links
+- [x] Create `YYYY-raffle` branch
+- [x] Start server with `netlify dev`
+- [x] Resize quilt image to 360x???, save to `assets/img/quilt.jpg`
+- [x] Resize tag image to 360x240, save to `assets/img/tag.jpg`
+- [x] Rename flyer to ElizabethSchmerling_Quilt_Flyer.pdf
+- [x] Uncomment both "Buy Raffle Tickets"
+- [x] Comment winner
+- [x] Search and replace year
+- [x] Update copy
+- [x] Update colors based on quilt/flyer
+- [x] Update eventbee links
 
 ### After drawing
 
