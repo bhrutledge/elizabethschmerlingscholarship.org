@@ -15,6 +15,7 @@
     --header-color: #7B3F6E;
     --link-color: #1B5F8F;
     --border-color: #000;
+    --border-width: 2px;
   }
 
 /* HTML5 display definitions
@@ -392,7 +393,7 @@ figure {
     margin-bottom: 1.625em;
     max-width: 360px;
     _width: 360px;
-    padding: 6px;
+    padding: var(--border-width);
     background-color: var(--border-color);
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -405,14 +406,16 @@ section {
 
 .gallery-grid {
     columns: 2;
-    column-gap: 0.5em;
+    column-gap: 1em;
     margin-bottom: 3.25em;
 }
 
 .gallery-grid img {
     display: block;
     width: 100%;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+    border: var(--border-width) solid var(--border-color);
+    box-sizing: border-box;
 }
 
 #banner {
