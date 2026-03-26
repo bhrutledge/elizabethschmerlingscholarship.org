@@ -403,6 +403,18 @@ section {
     margin-bottom: 3.25em;
 }
 
+.gallery-grid {
+    columns: 2;
+    column-gap: 0.5em;
+    margin-bottom: 3.25em;
+}
+
+.gallery-grid img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
 #banner {
     text-align: center;
     margin-bottom: 1.625em;
@@ -498,6 +510,16 @@ section {
 
     footer {
         clear: both;
+    }
+
+    #gallery {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .gallery-grid {
+        columns: 3;
     }
 }
 
