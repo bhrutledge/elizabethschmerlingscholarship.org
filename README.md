@@ -15,16 +15,16 @@ The site is hosted on GitHub Pages, with previews on Netlify.
 - [x] Rename flyer to ElizabethSchmerling_Quilt_Flyer.pdf
 - [x] Uncomment both "Buy Raffle Tickets"
 - [x] Comment winner
-- [x] Search and replace year
+- [x] Search and replace years (e.g. "2026" and "15th")
 - [x] Update copy
 - [x] Update colors based on quilt/flyer
 - [x] Update eventbee links
 
 ### After drawing
 
-- [x] Create `YYYY-winner` branch
-- [x] Comment both "Buy Raffle Tickets" and ticket details
-- [x] Uncomment results
+- [ ] Create `YYYY-winner` branch
+- [ ] Comment both "Buy Raffle Tickets" and ticket details
+- [ ] Uncomment results
 
 ### Deployment
 
